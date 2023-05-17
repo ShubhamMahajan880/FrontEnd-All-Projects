@@ -1,0 +1,112 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">Learning HTML5</h1>
+    <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo dignissimos molestiae sed necessitatibus expedita quis repellat accusamus fuga, laudantium doloremque nesciunt inventore harum ab accusantium! Esse ipsam dolorem officiis voluptatibus pariatur quaerat animi, fugit recusandae nihil temporibus tempora itaque nobis.</p>
+
+    <form id="survey-form">
+    <label id="name-label" >
+        Name
+    </label>
+    <input id="name" type="text" name="Shubham" placeholder="name" required >
+    <label id="email-label" >
+        Email
+    </label>
+    <input  id="email" type="email" email="shubhammahajan400@gmail.com" placeholder="email" required >
+    <label id="number-label" >
+        Number
+    </label>
+    <input id="number" min="10" max="45" type ="number" number="40" placeholder="number" required >
+    <br>
+
+    <select name="" id="dropdown">
+        <option value="Heading">Please select your option</option>
+        <option value="Option 1">FrontEnd Developer</option>
+        <option value="Option 2">BackEnd Developer</option>
+    </select>
+    <br>
+<label for="understanding">
+    Part
+</label>
+    <input type ="radio" value="SectionA"  name="XYZ" id="Sectionid1" > Part - 1
+    <input type="radio" value="SectionA" name="XYZ" id="Sectionid1"> Part - 2
+    <input type="radio" value="SectionA" name="XYZ" id="Sectionid1"> Part - 3
+    <br>
+    <label for="confirmation">
+        type
+    </label>
+    <input type ="checkbox" value="part - 1" name="section 1">Fruits
+    <input type="checkbox" value="part -2" name="section 2">Vegetables
+    <input type="checkbox" value="part -3" name="section 3">beverages
+    <br>
+
+    <textarea name="Comments" id="Reason" cols="30" rows="10" placeholder="Why you want to stay with us">Give the reason here</textarea>
+    <br>
+    <button type="submit" id="submit">
+        Submit
+    </button>
+    
+</form>
+
+
+    
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+    <link rel="stylesheet" href="styles.CSS">
+</head>
+<body>
+    <h1 id="title">I am doing Projects</h1>
+    <p id="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda omnis nihil quam, sed ut quibusdam deserunt veritatis error qui rem vitae unde repudiandae animi! Deserunt esse nemo, quisquam atque nihil pariatur, similique accusamus, vero consequatur debitis velit ducimus corrupti officia!</p>
+    <form id="survey-form">
+        <input type="text" id="name" name="Shubham"  placeholder="name-label" ><label for="name-label"></label>
+        <!-- <input type="Shubham" id="name" placeholder="name-label"> <label for="name-label"></label>   -->
+        <!-- <input type ="email" id="email" email="mhajan.shubh@gmail.com" placeholder="name-label"> <label for="name-label"></label> > -->
+        <input type="mhajan.shubh@gmail.com" id="email" placeholder="email-label"> <label id="email-label" for=""></label>
+        <input type="number" id="number" placeholder="number-label"> <label id="Number label" for=""></label> 
+        <input type="number" min="10" max="45">
+
+        <select name="Please Select options" id="drop-down">
+            <option value="Options--">Select anyone</option>
+            <option value="IN web">I am Full Stack Developer</option>
+            <option value="I front">I am FrontEnd Developer</option>
+            <option value="Nothing ">None of the above</option>            
+        </select>
+    <input type="radio" value="Devision - A" name="Devision-A" id="itsunique" >Robotics
+    <input type="radio" value="Devision - B" name="Devision-B" id="idsamenhihoti">A.I.        
+    <input type="checkbox" value="part 1" name="part 1" id="part a">Section - 1
+    <input type="checkbox" value="part 2" name="part 2" id="part b">Section - 2
+    <input type="checkbox" value="part 3" name="part 3" id="part c">Section - 3
+    <input type="textarea" >
+    <input type ="button" id="Submit" name="Submit" >    
+        
+        
+        
+
+    </form>
+
+</body>
+</html>
+
+** end of undefined **
+
