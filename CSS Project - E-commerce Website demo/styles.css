@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+:root {
+    --main-bg-color: #682aa5;
+
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+.shubh{
+    text-align: center;
+}
+img{
+    padding: -1 25px;
+    width: 45px;
+    margin: 0px;
+}
+.container{
+    min-height: calc(100vh - 40px - 12vh);
+}
+.slider{
+    margin: auto;
+    width: 80vw;
+    height: 50vh;
+    padding: 12px 0px;
+}
+header{
+    background-color: var(--main-bg-color);
+    height: 40px;        
+    font-family: 'Dancing Script', cursive;
+
+}
+nav{
+    display: flex;
+    /* flex-direction: column; */
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;    
+    padding: 0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #e0cc11;
+    font-style: bold;
+    font-weight: bolder;
+    
+}
+.search input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 20px;
+    margin: 8px 4px;
+    padding: 0px 36px;
+    border-radius: 4px;
+    border: 1px solid black;  
+    
+}
+.button{
+    margin: 9px 8px 8px 16px;
+    background-color: var(--main-bg-color);
+    border-radius: 2px solid black;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color:lightgreen;
+    max-width: 83vw;
+    margin: auto;
+    
+    
+}
+.card-item{
+    display: inline-flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+.lines{
+    display: flex;
+    flex-direction: column;
+}
+.card h2{
+    font-family: 'Dancing Script', cursive;
+}
+.my-2{
+    margin: 26px 0px;
+}
+.lines{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
