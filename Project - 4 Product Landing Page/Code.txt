@@ -1,0 +1,300 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="Styles.CSS">
+    </head>
+    <body>
+        <header id="header" >            
+            
+            <nav id="nav-bar">
+                <img  id="header-img" width="120px" height="80px"  src="8.jpg" alt="Clock logo">
+                <ul>                
+                <li><a class="active"   href="#">Home</a></li>
+                <li><a class="nav-link"  href="#Features">Features</a></li>
+                <li><a class="nav-link"  href="#Designs">Designs</a></li>
+                <li><a class="nav-link"  href="#Cost">Cost</a></li>
+            </ul>
+            </nav>              
+        </header>
+        
+            <form  id="form" action="https://www.freecodecamp.com/email-submit">
+                <h2>Digital,Analog Watches and Clock</h2>
+                <input type ="email" name="email" id="email" placeholder="Enter your Email-id here" >
+                <input type ="submit" name="submit" id="submit" value="Submit" >
+            </form>
+            <section>
+            <div id="Features" >
+                <div class="Features" >
+                    <img src="15.png" width="60px" height="60px" id="logo" alt="Logo Here">
+                    <div>
+                        <h4>Premium Materials</h4>
+                        <p> type of clock that uses certain resonance frequencies of atoms (usually cesium or rubidium) to keep time with extreme accuracy. The electronic components of atomic clocks are regulated by the frequency. </p>
+                    </div>
+                </div>
+                    <div class="Features" >
+                    <img src="16.png" width="60px" height="60px" id="logo"  alt="Logo Here">
+                    <div>
+                        <h4>Designs</h4>
+                        <p>Decorative and vintage wall clocks are treated as a style statement in today’s modern world. Antique wall clocks can be bought from auction websites at affordable prices.</p>                    
+                    </div>
+                </div>
+                <div class="Features" >
+                    <img src="17.png" width="60px" height="60px" id="logo" alt="Logo Here">
+                    <div>
+                        <h4>Quality Assurance</h4>
+                        <p>Alarm Clock was designed to be a fully featured alarm, radio, clock, and sound system. The RC65i gives users the ability to cradle iOS devices, which then can be used as source audio for alarms.</p>
+                    </div>
+                </div>            
+            </div>
+        </section>     
+
+                
+        
+        <div id="Designs" >
+        <div class="Designs" >        
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ot0ih9zDZBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <video id="video" src="/Top 10 Luxury Watch Brands.mp4"></video>
+            </div>
+        </div>
+        </div>
+
+
+    <div id="Cost" >
+        <div class="Box" >
+            <p class="level" > Titan</p>
+            <h4> $600 </h4>
+            <p> Special</p>
+            <p> Costly</p>
+            <p> Niche</p>
+            <button class="button" >Select</button>
+        </div>
+        <div class="Box" >        
+            <p class="level" > Ronalt</p>
+            <h4> $900 </h4>
+            <p> Favourite</p>
+            <p> Good Looking</p>
+            <p> Modern</p>
+            <button class="button" >Select</button>
+        </div>
+        <div class="Box" >
+            <p class="level" > Goldsmith</p>
+            <h4> $800 </h4>
+            <p> Beautiful</p>
+            <p> Usually</p>
+            <p> Perfect Combo</p>
+            <button class="button" >Select</button>
+        </div>
+    </div>
+
+
+        <footer id="footer" >
+            <div>
+                <ul>
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+                <a href="">Contact</a>
+            </ul>
+        </div>
+            <p id="last" > &copy; Copyright 2016, Original Trombone</p>
+        </footer>
+
+    </body>
+    </html>
+
+
+
+
+
+
+CSS 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #eee;
+}
+nav{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    overflow: hidden;
+    height: 85px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: #11c748;
+}
+#nav-bar {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}?
+
+#header-img{
+    margin: -8px -81px;
+    float: left;
+    padding: 9px 12px;
+}
+
+
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 23px 5px;
+    padding: 2px -7px;
+    display: flex;
+    font-size: small;
+}
+
+nav ul li a{
+    line-height: 15px;
+    color: black;
+    padding: 12px 30px;
+    font-size: large;
+}
+
+nav ul li a:hover{
+    background-color:snow;
+    border-radius: 9px;
+    
+}
+nav ul li a.active{
+    background-color: tomato;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+form{
+    display: flex;
+    margin: 170px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+#submit{
+    background-color: yellow;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 10px;
+}
+#email{
+    margin: 20px;
+}
+
+
+#email{
+    padding: 5px;
+    width: 21%;
+}
+.Features  {
+    display: flex;
+    margin-top: 125px;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 75px;
+    width: 70%;
+
+}
+#logo{
+    margin-right: 63px;
+}
+
+/* section{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left: 100px;
+} */
+#video{
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    align-items: center;
+    display: inherit;
+}
+
+#Cost{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+#cost{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Box{
+    display:flexbox;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    line-height: 25px;
+}
+.Box > .level{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.Box >.button{
+    background-color: orange;
+    transition: background-color 1s;
+}
+
+
+
+
+#footer{
+    margin-top: 0px;
+    background-color: #ddd;
+    padding: 20px;
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#last {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px){
+    body{
+        background-color: red;
+    }
+}
+
