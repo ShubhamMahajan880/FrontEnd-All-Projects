@@ -1,0 +1,192 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehnical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar" >
+        <header><b>Programming Content inside</b></header>
+        <a  class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+        <a  class="nav-link" href="#CPP_Programming_Language">CPP Programming Language</a>
+        <a  class="nav-link" href="#Python_Programming_Language">Python Programming Language</a>
+        <a  class="nav-link" href="#HyperText_Markup_Language">HyperText Markup Language</a>
+        <a  class="nav-link" href="#Cascading_Style_Sheets">Cascading Style Sheets</a>
+        
+    </nav>
+    <main id="main-doc" > 
+        <section class="main-section" id="JavaScript_and_Java" >
+            <header> 
+                <h3>JavaScript and Java</h3>
+            </header>
+            <p>Java is used to make applications on devices or browsers, while JavaScript is used primarily on HTML documents and browsers. Different plug-ins are used in order to use Java and JavaScript.JavaScript often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.
+                JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[10] It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).</p>
+            <p>Java is an OOP programming language, and it helps to create applications that function in a virtual machine or browser, while JavaScript is an OOP scripting language. Also, the JavaScript code runs on a browser only. Know more about what is the difference between Java and JavaScript from the table below.Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.</p>
+            <code></code>
+            <code></code>
+            <ol type="i" >
+                <li>Interpreter Based. ...</li>
+                <li>Event Handling. ...</li>
+                <li>Light Weight. ...</li>
+                <li>Case Sensitive. ...</li>
+            </ol>
+
+        </section>
+        
+        <section class="main-section" id="CPP_Programming_Language" >
+            <header>
+            <h3>CPP Programming Language</h3>
+            </header>
+            <p>C++ is a cross-platform language that can be used to create high-performance applications. C++ was developed by Bjarne Stroustrup, as an extension to the C language. C++ gives programmers a high level of control over system resources and memory.C++ programming language is almost everywhere around the world.C++ is one of the world's most popular programming languages.
+                C++ can be found in today's operating systems, Graphical User Interfaces, and embedded systems.                
+                C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.                
+                C++ is portable and can be used to develop applications that can be adapted to multiple platforms.                
+                C++ is fun and easy to learn!                
+                As C++ is close to C, C# and Java, it makes it easy for programmers to switch to C++ or vice versa.                
+                </p>
+            <p> For example, it is used for making browsers, applications, and software. Also, C++ is used majorly to make operating systems, and almost all operating systems are built using C++, for example, Mac Os, Windows, Linux, etc.C++ is a cross-platform language that can be used to create high-performance applications.
+            C++ was developed by Bjarne Stroustrup, as an extension to the C language.                
+            C++ gives programmers a high level of control over system resources and memory.</p>
+            <code></code>
+            <code></code>
+            <ul type="square" >
+                <li>Machine Independent.</li>
+                <li>Compiler-Based.</li>
+                <li>Dynamic Memory Allocation.</li>
+                <li>Integration and Extendability.</li>
+            </ul>
+        </section>
+        
+        <section class="main-section" id="Python_Programming_Language" >
+            <header>
+            <h3>Python Programming Language</h3>
+            </header>
+            <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics developed by Guido van Rossum. It was originally released in 1991. Designed to be easy as well as fun, the name "Python" is a nod to the British comedy group Monty Python.Python can be used on a server to create web applications.Python can be used alongside software to create workflows.
+                Python can connect to database systems. It can also read and modify files.
+                Python can be used to handle big data and perform complex mathematics.
+                Python can be used for rapid prototyping, or for production-ready software development.</p>
+            <p> Python is a computer programming language often used to build websites and software, automate tasks, and conduct dataanalysis. Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn'tspecialized for any specific problems.Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+                Python has a simple syntax similar to the English language.
+                Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+                Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+                Python can be treated in a procedural way, an object-oriented way or a functional way.</p>
+            <code></code>
+            <code></code>
+        </section>
+        
+        <section class="main-section" id="HyperText_Markup_Language" >
+            <header>
+            <h3>HyperText Markup Language</h3>
+            </header>
+            <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.HTML stands for Hyper Text Markup Language
+                HTML is the standard markup language for creating Web pages
+                HTML describes the structure of a Web page
+                HTML consists of a series of elements
+                HTML elements tell the browser how to display the content
+                HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+            </p> 
+            <p> is the language used to tell your web browser what each part of a website is. So, using HTML, you can define headers, paragraphs, links, images, and more, so your browser knows how to structure the web page you're looking at.The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+            The html element is the root element of an HTML page
+            The head element contains meta information about the HTML page
+            The title element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+            The body element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs,images, hyperlinks, tables, lists, etc.
+            The h1 element defines a large heading
+            The p element defines a paragraph</p>
+            <code></code>
+            <code></code>
+        </section>
+        
+        <section class="main-section" id="Cascading_Style_Sheets" >
+            <header>
+            <h3>Cascading Style Sheets</h3>
+            </header>
+            <p>Cascading Style Sheets (CSS) is a markup language responsible for how your web pages will look like. It controls the colors, fonts, and layouts of your website elements.CSS stands for Cascading Style Sheets
+            CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+            CSS saves a lot of work. It can control the layout of multiple web pages all at once
+            External stylesheets are stored in CSS files</p>
+            <p> This style sheet language also allows you to add effects or animations to your website.It can be used to adjust contentsize, spacing, color and font or add decorative features, such as animations or split content into columns.CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+            Separation of formatting and content also makes it feasible to present the same markup page in different styles for differentrendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-basedtactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4]</p>
+            <code></code>
+            <code></code>
+            <ol>
+                <li>Text Properties</li>
+                <li>List Properties</li>
+                <li>Border Properties</li>
+                <li>Font Properties</li>
+            </ol>
+        </section>
+        
+        
+
+
+
+
+    </main>
+    
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media screen and ( max-width:700px ) {    
+    body{
+        background-color: rgb(22, 207, 47);
+
+    }    
+}
+/* body{
+    display: inline-block;
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+    display: block;
+    margin: 8px;
+} */
+
+#navbar{
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    display: inline-grid;
+}
+nav {
+    display: block;
+}
+main {
+    display: block;
+}
+body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+#main-doc{
+    margin: 30px 0px 0px 300px;
+    padding: 20px 20px;
+}
+
+h3{
+    text-align: left;
+}
+
+
+
+
+** end of undefined **
+
